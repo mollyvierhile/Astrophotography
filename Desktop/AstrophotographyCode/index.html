@@ -10,15 +10,15 @@
 
     <title>Astrophotography</title>
 
-    <!-- Bootstrap core CSS -->
+    <!-- Core CSS from Boostrap Template -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom fonts for this template -->
+    <!-- Custom fonts for Boostrap Template -->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
+    <!-- Custom styles for this template - Boostrap and added later by Molly -->
     <link href="css/grayscale.min.css" rel="stylesheet">
     <link href="css/stars.css" rel="stylesheet">
 
@@ -26,7 +26,7 @@
 
   <body id="page-top">
 
-    <!-- Navigation -->
+    <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container" id="layout" class="stars">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">Home</a>
@@ -37,7 +37,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#anatomycamera">Cameras</a>
+              <a class="nav-link js-scroll-trigger" href="#understandingcamera">Cameras</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#locatingstars">Stars</a>
@@ -50,7 +50,7 @@
       </div>
     </nav>
 
-    <!-- Home/Top Part -->
+    <!-- Home/Top Section of Site -->
     <header class="masthead">
       <div class="container d-flex h-100 align-items-center">
         <div id="stars"></div>
@@ -62,21 +62,24 @@
       </div>
     </header>
 
-    <!-- Anatomy of a Camera Section -->
-    <section id="anatomycamera" class="about-section text-center">
+    <!-- Understanding your Camera Section -->
+    <section id="understandingcamera" class="about-section text-center">
       <div class="container">
           <div class="col-lg-8 mx-auto">
             <h2 class="text-white mb-4">understanding your</h2>
             <h1 class="text-white mb-4">Camera</h1>
+            <br><br><br><br>
           </div>
         </div>
         <img src="img/camera.png" class="img-fluid" alt="">
+
+        <!-- Testing out an image map to see whether I can make descriptions about parts of camera emerge on hover -->
         <div class="map">
             <img src="img/camera.png" usemap="#testing">
             <map name="testing">
             <area shape="rect" coords="100,100,200,200" class="overlay">
             </map>
-            <span class="text-content"><span>Strange World</span></span>
+            <span class="text-content"><span>Aperture</span></span>
         </div>
     </section>
       
@@ -115,7 +118,11 @@
           <div class="col-lg-8 mx-auto">
             <h2 class="text-white mb-4">locating the</h2>
             <h1 class="text-white mb-4">Stars</h1>
-            <img id="bigdipper" src="img/bigdipper.png">
+
+    <!-- Constellations that should animate to connect on click or hover -->
+      <div class="flex-container">
+            <div style="flex-basis: 250px"><img id="bigdipper" src="img/bigdipper.png"></div>
+              </div>
             <br>
           </div>
         </div>
@@ -134,19 +141,14 @@
             <h1 class="text-white mb-4">Post-Processing</h1>
             <p class="text-white-50">Lightroom 4 and Photoshop CS6 are excellent choices to edit RAW photos. This includes color correction, basic luminosity control, contrast, sharpening, and noise reduction. After finishing in Lightroom, move to Photoshop CS6. Use luminosity masks to achieve ultimate control by increasing the brightness of the stars by leaving dark areas of the photo untouched. </p>
           </div>
+          
+    <!-- Image slider to show before/after processing -->
           <div class="image-slider">
                 <div><img src="before.jpg"></div>
                 <img src="after.jpg"/>
           </div>       
         </div>
     </section>
-
-
-    <!-- CSS Animation -->
-      <div id='stars'></div>
-      <div id='stars2'></div>
-      <div id='stars3'></div>
-
  
     <!-- Footer -->
     <footer class="bg-black small text-center text-white-50">
