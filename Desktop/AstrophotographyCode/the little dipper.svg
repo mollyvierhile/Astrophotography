@@ -1,54 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="253px" height="212px" viewBox="0 0 253 212" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="261px" height="141px" viewBox="0 0 261 141" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
-    <title>bigdipper </title>
+    <title>the little dipper</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <polygon id="path-1" points="147.5 105.75 143.679396 107.75861 144.409066 103.504305 141.318133 100.49139 145.589698 99.8706948 147.5 96 149.410302 99.8706948 153.681867 100.49139 150.590934 103.504305 151.320604 107.75861"></polygon>
+        <polygon id="path-1" points="230.5 86.75 226.679396 88.7586105 227.409066 84.5043052 224.318133 81.4913895 228.589698 80.8706948 230.5 77 232.410302 80.8706948 236.681867 81.4913895 233.590934 84.5043052 234.320604 88.7586105"></polygon>
         <filter x="-52.5%" y="-55.8%" width="205.1%" height="198.8%" filterUnits="objectBoundingBox" id="filter-2">
             <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
             <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0.921568627   0 0 0 0 0.843137255   0 0 0 0 0.984313725  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <polygon id="path-3" points="147.5 165.75 143.679396 167.75861 144.409066 163.504305 141.318133 160.49139 145.589698 159.870695 147.5 156 149.410302 159.870695 153.681867 160.49139 150.590934 163.504305 151.320604 167.75861"></polygon>
+        <polygon id="path-3" points="186.5 75.75 182.679396 77.7586105 183.409066 73.5043052 180.318133 70.4913895 184.589698 69.8706948 186.5 66 188.410302 69.8706948 192.681867 70.4913895 189.590934 73.5043052 190.320604 77.7586105"></polygon>
         <filter x="-52.5%" y="-55.8%" width="205.1%" height="198.8%" filterUnits="objectBoundingBox" id="filter-4">
             <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
             <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0.921568627   0 0 0 0 0.843137255   0 0 0 0 0.984313725  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <polygon id="path-5" points="55.5 171.75 51.6793959 173.75861 52.4090663 169.504305 49.3181326 166.49139 53.5896979 165.870695 55.5 162 57.4103021 165.870695 61.6818674 166.49139 58.5909337 169.504305 59.3206041 173.75861"></polygon>
+        <polygon id="path-5" points="141.5 63.75 137.679396 65.7586105 138.409066 61.5043052 135.318133 58.4913895 139.589698 57.8706948 141.5 54 143.410302 57.8706948 147.681867 58.4913895 144.590934 61.5043052 145.320604 65.7586105"></polygon>
         <filter x="-52.5%" y="-55.8%" width="205.1%" height="198.8%" filterUnits="objectBoundingBox" id="filter-6">
             <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
             <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0.921568627   0 0 0 0 0.843137255   0 0 0 0 0.984313725  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <polygon id="path-7" points="30.5 115.75 26.6793959 117.75861 27.4090663 113.504305 24.3181326 110.49139 28.5896979 109.870695 30.5 106 32.4103021 109.870695 36.6818674 110.49139 33.5909337 113.504305 34.3206041 117.75861"></polygon>
+        <polygon id="path-7" points="103.5 67.75 99.6793959 69.7586105 100.409066 65.5043052 97.3181326 62.4913895 101.589698 61.8706948 103.5 58 105.410302 61.8706948 109.681867 62.4913895 106.590934 65.5043052 107.320604 69.7586105"></polygon>
         <filter x="-52.5%" y="-55.8%" width="205.1%" height="198.8%" filterUnits="objectBoundingBox" id="filter-8">
             <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
             <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0.921568627   0 0 0 0 0.843137255   0 0 0 0 0.984313725  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <polygon id="path-9" points="197.5 47.75 193.679396 49.7586105 194.409066 45.5043052 191.318133 42.4913895 195.589698 41.8706948 197.5 38 199.410302 41.8706948 203.681867 42.4913895 200.590934 45.5043052 201.320604 49.7586105"></polygon>
+        <polygon id="path-9" points="79.5 38.75 75.6793959 40.7586105 76.4090663 36.5043052 73.3181326 33.4913895 77.5896979 32.8706948 79.5 29 81.4103021 32.8706948 85.6818674 33.4913895 82.5909337 36.5043052 83.3206041 40.7586105"></polygon>
         <filter x="-52.5%" y="-55.8%" width="205.1%" height="198.8%" filterUnits="objectBoundingBox" id="filter-10">
             <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
             <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0.921568627   0 0 0 0 0.843137255   0 0 0 0 0.984313725  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <polygon id="path-11" points="236.5 28.75 232.679396 30.7586105 233.409066 26.5043052 230.318133 23.4913895 234.589698 22.8706948 236.5 19 238.410302 22.8706948 242.681867 23.4913895 239.590934 26.5043052 240.320604 30.7586105"></polygon>
+        <polygon id="path-11" points="52.5 102.75 48.6793959 104.75861 49.4090663 100.504305 46.3181326 97.4913895 50.5896979 96.8706948 52.5 93 54.4103021 96.8706948 58.6818674 97.4913895 55.5909337 100.504305 56.3206041 104.75861"></polygon>
         <filter x="-52.5%" y="-55.8%" width="205.1%" height="198.8%" filterUnits="objectBoundingBox" id="filter-12">
             <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
             <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0.921568627   0 0 0 0 0.843137255   0 0 0 0 0.984313725  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
+        <polygon id="path-13" points="28.5 81.75 24.6793959 83.7586105 25.4090663 79.5043052 22.3181326 76.4913895 26.5896979 75.8706948 28.5 72 30.4103021 75.8706948 34.6818674 76.4913895 31.5909337 79.5043052 32.3206041 83.7586105"></polygon>
+        <filter x="-52.5%" y="-55.8%" width="205.1%" height="198.8%" filterUnits="objectBoundingBox" id="filter-14">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.921568627   0 0 0 0 0.843137255   0 0 0 0 0.984313725  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
     </defs>
-    <g id="bigdipper-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M238.316223,24.4646697 L196.558179,45.1124559 L148.276204,101.630929 L146.921686,162.871448 L55.4407392,167.871843 L30.502565,112.774897 C104.464904,102.929621 143.722783,99.2149653 148.276204,101.630929" id="Path" stroke="#FFFFFF" stroke-width="4"></path>
+    <g id="the-little-dipper" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polyline id="Path-5" stroke="#FFFFFF" stroke-width="4" points="230.717079 83.7482674 187.104435 72.7586105 141.871607 60.0897748 104.259415 63.6422521 53.6056357 99.8434212 28.3181326 77.7655155 79.8830672 35.5783336 104.259415 63.6422521"></polyline>
         <g id="Star">
             <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
             <use fill="#EBD7FB" fill-rule="evenodd" xlink:href="#path-1"></use>
@@ -72,6 +79,10 @@
         <g id="Star">
             <use fill="black" fill-opacity="1" filter="url(#filter-12)" xlink:href="#path-11"></use>
             <use fill="#EBD7FB" fill-rule="evenodd" xlink:href="#path-11"></use>
+        </g>
+        <g id="Star">
+            <use fill="black" fill-opacity="1" filter="url(#filter-14)" xlink:href="#path-13"></use>
+            <use fill="#EBD7FB" fill-rule="evenodd" xlink:href="#path-13"></use>
         </g>
     </g>
 </svg>

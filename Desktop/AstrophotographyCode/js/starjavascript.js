@@ -1,19 +1,5 @@
-/* window.onload = function() {
-
-(function() {
-  /**
-     author: @manufosela
-     2013/08/27    copyleft 2013
-
-     ShootingStar class Main Methods:
-     launch: launch shooting stars every N seconds received by              param. 10 seconds by default.
-      launchStar: launch a shooting star. Received options                  object by param with:
-               - dir (direction between 0 and 1)
-               - life (between 100 and 400)
-               - beamSize (between 400 and 700)
-               - velocity (between 2 and 10)
-  **/
-
+window.onload = function() {
+    
 /* Shooting Star animation */
 
   ShootingStar = function(id) {

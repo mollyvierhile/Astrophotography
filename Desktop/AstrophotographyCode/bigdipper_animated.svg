@@ -1,45 +1,45 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="253px" height="212px" viewBox="0 0 253 212" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<svg width="253px" height="212px" viewBox="0 0 253 212" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="" style="">
     <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
     <title>bigdipper </title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <polygon id="path-1" points="147.5 105.75 143.679396 107.75861 144.409066 103.504305 141.318133 100.49139 145.589698 99.8706948 147.5 96 149.410302 99.8706948 153.681867 100.49139 150.590934 103.504305 151.320604 107.75861"></polygon>
+        <path id="path-1" d="M147.5,105.75L143.679396,107.75861L144.409066,103.504305L141.318133,100.49139L145.589698,99.8706948L147.5,96L149.410302,99.8706948L153.681867,100.49139L150.590934,103.504305L151.320604,107.75861Z" class="dWDQZWKh_0"></path>
         <filter x="-52.5%" y="-55.8%" width="205.1%" height="198.8%" filterUnits="objectBoundingBox" id="filter-2">
             <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
             <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0.921568627   0 0 0 0 0.843137255   0 0 0 0 0.984313725  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <polygon id="path-3" points="147.5 165.75 143.679396 167.75861 144.409066 163.504305 141.318133 160.49139 145.589698 159.870695 147.5 156 149.410302 159.870695 153.681867 160.49139 150.590934 163.504305 151.320604 167.75861"></polygon>
+        <path id="path-3" d="M147.5,165.75L143.679396,167.75861L144.409066,163.504305L141.318133,160.49139L145.589698,159.870695L147.5,156L149.410302,159.870695L153.681867,160.49139L150.590934,163.504305L151.320604,167.75861Z" class="dWDQZWKh_1"></path>
         <filter x="-52.5%" y="-55.8%" width="205.1%" height="198.8%" filterUnits="objectBoundingBox" id="filter-4">
             <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
             <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0.921568627   0 0 0 0 0.843137255   0 0 0 0 0.984313725  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <polygon id="path-5" points="55.5 171.75 51.6793959 173.75861 52.4090663 169.504305 49.3181326 166.49139 53.5896979 165.870695 55.5 162 57.4103021 165.870695 61.6818674 166.49139 58.5909337 169.504305 59.3206041 173.75861"></polygon>
+        <path id="path-5" d="M55.5,171.75L51.6793959,173.75861L52.4090663,169.504305L49.3181326,166.49139L53.5896979,165.870695L55.5,162L57.4103021,165.870695L61.6818674,166.49139L58.5909337,169.504305L59.3206041,173.75861Z" class="dWDQZWKh_2"></path>
         <filter x="-52.5%" y="-55.8%" width="205.1%" height="198.8%" filterUnits="objectBoundingBox" id="filter-6">
             <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
             <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0.921568627   0 0 0 0 0.843137255   0 0 0 0 0.984313725  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <polygon id="path-7" points="30.5 115.75 26.6793959 117.75861 27.4090663 113.504305 24.3181326 110.49139 28.5896979 109.870695 30.5 106 32.4103021 109.870695 36.6818674 110.49139 33.5909337 113.504305 34.3206041 117.75861"></polygon>
+        <path id="path-7" d="M30.5,115.75L26.6793959,117.75861L27.4090663,113.504305L24.3181326,110.49139L28.5896979,109.870695L30.5,106L32.4103021,109.870695L36.6818674,110.49139L33.5909337,113.504305L34.3206041,117.75861Z" class="dWDQZWKh_3"></path>
         <filter x="-52.5%" y="-55.8%" width="205.1%" height="198.8%" filterUnits="objectBoundingBox" id="filter-8">
             <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
             <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0.921568627   0 0 0 0 0.843137255   0 0 0 0 0.984313725  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <polygon id="path-9" points="197.5 47.75 193.679396 49.7586105 194.409066 45.5043052 191.318133 42.4913895 195.589698 41.8706948 197.5 38 199.410302 41.8706948 203.681867 42.4913895 200.590934 45.5043052 201.320604 49.7586105"></polygon>
+        <path id="path-9" d="M197.5,47.75L193.679396,49.7586105L194.409066,45.5043052L191.318133,42.4913895L195.589698,41.8706948L197.5,38L199.410302,41.8706948L203.681867,42.4913895L200.590934,45.5043052L201.320604,49.7586105Z" class="dWDQZWKh_4"></path>
         <filter x="-52.5%" y="-55.8%" width="205.1%" height="198.8%" filterUnits="objectBoundingBox" id="filter-10">
             <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
             <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0.921568627   0 0 0 0 0.843137255   0 0 0 0 0.984313725  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <polygon id="path-11" points="236.5 28.75 232.679396 30.7586105 233.409066 26.5043052 230.318133 23.4913895 234.589698 22.8706948 236.5 19 238.410302 22.8706948 242.681867 23.4913895 239.590934 26.5043052 240.320604 30.7586105"></polygon>
+        <path id="path-11" d="M236.5,28.75L232.679396,30.7586105L233.409066,26.5043052L230.318133,23.4913895L234.589698,22.8706948L236.5,19L238.410302,22.8706948L242.681867,23.4913895L239.590934,26.5043052L240.320604,30.7586105Z" class="dWDQZWKh_5"></path>
         <filter x="-52.5%" y="-55.8%" width="205.1%" height="198.8%" filterUnits="objectBoundingBox" id="filter-12">
             <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
             <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
@@ -48,7 +48,7 @@
         </filter>
     </defs>
     <g id="bigdipper-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M238.316223,24.4646697 L196.558179,45.1124559 L148.276204,101.630929 L146.921686,162.871448 L55.4407392,167.871843 L30.502565,112.774897 C104.464904,102.929621 143.722783,99.2149653 148.276204,101.630929" id="Path" stroke="#FFFFFF" stroke-width="4"></path>
+        <path d="M238.316223,24.4646697 L196.558179,45.1124559 L148.276204,101.630929 L146.921686,162.871448 L55.4407392,167.871843 L30.502565,112.774897 C104.464904,102.929621 143.722783,99.2149653 148.276204,101.630929" id="Path" stroke="#FFFFFF" stroke-width="4" class="dWDQZWKh_6"></path>
         <g id="Star">
             <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
             <use fill="#EBD7FB" fill-rule="evenodd" xlink:href="#path-1"></use>
@@ -74,4 +74,4 @@
             <use fill="#EBD7FB" fill-rule="evenodd" xlink:href="#path-11"></use>
         </g>
     </g>
-</svg>
+<style data-made-with="vivus-instant">.dWDQZWKh_0{stroke-dasharray:44 46;stroke-dashoffset:45;}.start .dWDQZWKh_0{animation:dWDQZWKh_draw 3000ms ease-in-out 0ms forwards;}.dWDQZWKh_1{stroke-dasharray:44 46;stroke-dashoffset:45;}.start .dWDQZWKh_1{animation:dWDQZWKh_draw 3000ms ease-in-out 0ms forwards;}.dWDQZWKh_2{stroke-dasharray:44 46;stroke-dashoffset:45;}.start .dWDQZWKh_2{animation:dWDQZWKh_draw 3000ms ease-in-out 0ms forwards;}.dWDQZWKh_3{stroke-dasharray:44 46;stroke-dashoffset:45;}.start .dWDQZWKh_3{animation:dWDQZWKh_draw 3000ms ease-in-out 0ms forwards;}.dWDQZWKh_4{stroke-dasharray:44 46;stroke-dashoffset:45;}.start .dWDQZWKh_4{animation:dWDQZWKh_draw 3000ms ease-in-out 0ms forwards;}.dWDQZWKh_5{stroke-dasharray:44 46;stroke-dashoffset:45;}.start .dWDQZWKh_5{animation:dWDQZWKh_draw 3000ms ease-in-out 0ms forwards;}.dWDQZWKh_6{stroke-dasharray:453 455;stroke-dashoffset:454;}.start .dWDQZWKh_6{animation:dWDQZWKh_draw 3000ms ease-in-out 0ms forwards;}@keyframes dWDQZWKh_draw{100%{stroke-dashoffset:0;}}@keyframes dWDQZWKh_fade{0%{stroke-opacity:1;}94.44444444444444%{stroke-opacity:1;}100%{stroke-opacity:0;}}</style></svg>
