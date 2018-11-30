@@ -70,22 +70,26 @@
           <div class="col-lg-8 mx-auto">
             <h2 class="text-white mb-4">understanding your</h2>
             <h1 class="text-white mb-4">Camera</h1>
+            <br><br>
+            <p class="text-white mb-4">Hover over parts of the camera to learn more about its anatomy.</p>
             <br><br><br><br>
           </div>
         </div>
-       <div class="container" id=#camerawithhotspots>
+
+    <!-- Camera with hotspots -->
+       <div class="container" id="camerawithhotspots">
         <img src="img/camera.png" width="500" height="382" class="img-fluid" alt="" >
-        <img src="img/lenshotspot.png" id="lenshotspot">
+           
+    <!--Tooltips and parts of camera on hover --> 
+        <div class="tooltip" id="lenshotspot">
+            <img src="img/lenshotspot.png">
+            <div class="tooltiptext text-white mb-4">Lens</div>
+           </div>        
+        <tooltip><img src="img/flashhotspot.png"  class="hotspot" id="flashhotspot"></tooltip>
+        <tooltip><img src="img/modehotspot.png"  class="hotspot" id="modehotspot"></tooltip>
+        <tooltip><img src="img/shutterhotspot.png"  class="hotspot" id="shutterhotspot"></tooltip>
         </div>
 
-        <!-- Testing out an image map to see whether I can make descriptions about parts of camera emerge on hover -->
-        <div class="map">
-            <img src="img/camera.png" usemap="#testing">
-            <map name="testing">
-            <area shape="rect" coords="100,100,200,200" class="overlay">
-            </map>
-            <span class="text-content"><span>Aperture</span></span>
-        </div>
     </section>
       
     <!-- Break between sections -->
@@ -103,14 +107,12 @@
             <p class="text-white-50">Striking a delicate balance of aperture, focus, exposure time, and ISO are key to getting the perfect star shot.</p>
           </div>
         </div>
-        <div class="row">
-    <div class="flex-container">
-        <div style="flex-basis: 250px"><p class="text-white-50">Aperture: anything at or below f/4 will work well, but an aperture around f/2.8 will allow more light to hit your lens, letting your camera process more stars.</p></div>
-        <div style="flex-basis: 250px"><p class="text-white-50">Focus: Focusing on infinity will allow your camera to best process the night sky.</p></div>
-        <div style="flex-basis: 250px"><p class="text-white-50">Exposure: Exposure time heavily depends on your focal length (i.e., how large your camera’s lens is). An 18-55mm lens is most common with a DSLR or mirrorless camera. Take the number 500 and divide it by the focal length you are shooting at. With the lens mentioned above, this will be about 27 seconds.</p></div>
-        <div style="flex-basis: 250px"><p class="text-white-50">ISO: The more you increase your ISO, the more noise your picture will exhibit. Start with an ISO of 800-1500 and take a practice shot to see if your photo is bright enough. If not, increase values until it is! In general, aim for an ISO of 2500-5000.</p></div>
+        <div class="flex-container">
+            <div style="flex-basis: 250px"><p class="text-white-50">Aperture: anything at or below f/4 will work well, but an aperture around f/2.8 will allow more light to hit your lens, letting your camera process more stars.</p></div>
+            <div style="flex-basis: 250px"><p class="text-white-50">Focus: Focusing on infinity will allow your camera to best process the night sky.</p></div>
+            <div style="flex-basis: 250px"><p class="text-white-50">Exposure: Exposure time heavily depends on your focal length (i.e., how large your camera’s lens is). An 18-55mm lens is most common with a DSLR or mirrorless camera. Take the number 500 and divide it by the focal length you are shooting at. With the lens mentioned above, this will be about 27 seconds.</p></div>
+            <div style="flex-basis: 250px"><p class="text-white-50">ISO: The more you increase your ISO, the more noise your picture will exhibit. Start with an ISO of 800-1500 and take a practice shot to see if your photo is bright enough. If not, increase values until it is! In general, aim for an ISO of 2500-5000.</p></div>
         </div>
-     </div>
     </section>
     
     <!-- Break between sections -->
@@ -127,6 +129,8 @@
         <div class="col-lg-8">
             <h2 class="col-med-3 text-white mb-4">avoiding</h2>
             <h1 class="col-med-3 text-white mb-4">Light Pollution</h1>
+            <br><br>
+            <p class="text-white mb-4">Light pollution will severely inhibit your ability to photograph (or even see!) the stars. Check out where to go for your best shot at seeing the Milky Way on the map below.</p>
             <br><br><br>
             <iframe id="lightpollutionmap" src="https://darksitefinder.com/maps/world.html#2/35.9/-368.8"></iframe>
             </div>
@@ -146,6 +150,9 @@
           <div class="col-lg-8">
             <h2 class="col-med-3 text-white mb-4">locating the</h2>
             <h1 class="col-med-3 text-white mb-4">Stars</h1>
+            <br><br>
+            <p class="text-white mb-4">The night is dark and full of...stars! Don't you want to know what you're looking at? Mouse over the stars below to see the most common constellations to grace the night sky.</p>
+            <br><br><br>
 
     <!-- Constellations that should animate to connect on click or hover -->
       <div class="col-lg-12 mx-auto">

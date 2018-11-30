@@ -1,5 +1,14 @@
 window.onload = function() {
+
+/* Hotspots emerge on hover */
     
+/* $(function() {
+   $(".hover").mouseenter(function() {
+      $(".hotspot").show();
+   });
+   $(".hotspot").mouseleave(function() {
+      $(this).hide();  //or $('.overlay').hide()
+   });
     
 /* Shooting Star animation */
 
