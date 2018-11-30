@@ -1,147 +1,121 @@
+p {
+   color: white;
+   font-size: 16px;
+}
+
+.grayparagraphtext {
+    color: darkgray;
+}
+
+h3 {
+    font-size: 20px;
+}
+
 /* Main Navigation CSS */
 
 #mainNav {
-  min-height: 56px;
-  background-color: black;
+    min-height: 56px;
+    background-color: black;
 }
 
 /* Understanding your Camera section */
 
 #understandingcamera {
-  width: 100%;
-  height: auto;
-  min-height: 10rem;
-  background: #161616;
-  border: none; 
+    width: 100%;
+    height: auto;
+    min-height: 10rem;
+    background: #161616;
+    border: none; 
 }
 
-/* Setting up your Camera section */
-
-#settingupcamera {
-  width: 100%;
-  height: auto;
-  min-height: 50rem;
-  padding: 15rem 0;
-  padding-top: 100px;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("setupcamera.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("setupcamera.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-  margin-left: 0px;
-}
-
-.tooltip {
-    position: relative;
-    display: block;
-    border-bottom: 1px dotted black;
-}
-
-.tooltip .tooltiptext {
-    width: 120px;
-    background-color: #555;
-    color: #fff;
-    text-align: center;
-    padding: 5px 0;
-    border-radius: 6px;
-    
-    /* Position the tooltip text */
-    position: absolute;
-    z-index: 1;
-    bottom: 125%;
-    left: 50%;
-    margin-left: -60px;
-
-    /* Fade in tooltip */
-    opacity: 0;
-    transition: opacity 0.3s;
-}
-
-/* Tooltip arrow */
-.tooltip .tooltiptext::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #555 transparent transparent transparent;
-}
-
-/* Show the tooltip text when you mouse over the tooltip container */
-.tooltip:hover .tooltiptext {
-    visibility: visible;
-    opacity: 1;
-}
+/* Camera with hotspots that emerge on hover */
 
 #camerawithhotspots {
     position: relative;
 }
 
-#lenshotspot {
+.hotspotinfo {
     position: absolute;
-    top: 25%;
-    left: 39%;
-    width: 32%;
-    height: auto;
-    display: none;
+    opacity: 0;
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
 }
 
-#lenshotspot:hover {
-     display: block;
+.hotspotinfo:hover {
+    opacity: 1;
+}
+
+.hotspotdescription {
+    position: absolute;
+    text-align: left;
+    background-color: none;
+    color: white;
+    width: 300px;
+}
+
+
+#lenshotspot {
+    top: 25%;
+    left: 39%;
+    width: 25%;
+}
+
+
+#lenshotspotdescription {
+    top: 50px;
+    left: 400px;   
 }
 
 #flashhotspot {
-    position: absolute;
     top: 0%;
     left: 43%;
     width: 25%;
-    height: auto; 
-    opacity: 0;
-    transition: opacity .5s ease-out;
-    -moz-transition: opacity .5s ease-out;
-    -webkit-transition: opacity .5s ease-out;
-    -o-transition: opacity .5s ease-out;
 }
 
-#flashhotspot:hover {
-     opacity: 1;
+#flashhotspotdescription {
+    top: 50px;
+    left: 380px;   
 }
 
 #modehotspot {
-    position: absolute;
     top: 9%;
     left: 30%;
     width: 15%;
-    height: auto;
-    opacity: 0;
-    transition: opacity .5s ease-out;
-    -moz-transition: opacity .5s ease-out;
-    -webkit-transition: opacity .5s ease-out;
-    -o-transition: opacity .5s ease-out;
 }
 
-#modehotspot:hover {
-     opacity: 1;
+#modehotspotdescription {
+    top: -100px;
+    left: -350px;
 }
 
 #shutterhotspot {
-    position: absolute;
     top: 24%;
     left: 26%;
     width: 8%;
-    height: auto;
-    opacity: 0;
-    transition: opacity .5s ease-out;
-    -moz-transition: opacity .5s ease-out;
-    -webkit-transition: opacity .5s ease-out;
-    -o-transition: opacity .5s ease-out;
 }
 
-#shutterhotspot:hover {
-     opacity: 1;
+#shutterhotspotdescription {
+    top: -100px;
+    left: -370px;   
+}
+
+/* Setting up your Camera section */
+
+#settingupcamera {
+    width: 100%;
+    height: auto;
+    min-height: 50rem;
+    padding: 15rem 0;
+    padding-top: 100px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/setupcamera.jpg");
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/setupcamera.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    margin-left: 0px;
 }
 
 /* Flex Box to contain information about setting up/prepping camera */
@@ -149,31 +123,34 @@
 .flex-container {
     position: relative;
     top: 200px;
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    display: flex;
+    align-content: flex-start;
 }
 
 /* Light Pollution section */
 
 
 #lightpollution {
-  position: inherit;
-  width: 100%;
-  height: 1800px;
-  min-height: 50rem;
-  padding: 15rem 0;
-  padding-top: 100px;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("img/darksky.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("darksky.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-  margin-left: 0px;
-  padding-left: 0px;
+    position: inherit;
+    width: 100%;
+    height: 1200px;
+    min-height: 50rem;
+    padding: 15rem 0;
+    padding-top: 100px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/darksky.jpg");
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/darksky.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    margin-left: 0px;
+    padding-left: 0px;
 }
+
+/* Map of light pollution */
 
 #lightpollutionmap {
     width: 1000px; 
@@ -186,35 +163,117 @@
 /* Locating the stars section */
 
 #locatingstars {
-  position: relative;
-  width: 100%;
-  height: auto;
-  min-height: 50rem;
-  padding: 15rem 0;
-  padding-top: 100px;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("milkyway.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("milkyway.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-  margin-left: 0px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 75rem;
+    padding: 15rem 0;
+    padding-top: 100px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/milkyway.jpg");
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/milkyway.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    margin-left: 0px;
 }
 
-/* Constellations within a Flexbox - emerge on hover - ideally connect on click/hover */
 
-#bigdipper {
-    opacity: 0.4;
-    transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -webkit-transition: opacity 1s ease-in-out;
+/* Constellations within a Flexbox - connect on hover */
+
+.constellationinfo {
+    flex-basis: 250px;
+    position: relative;
+    opacity: 0.5;
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
 }
 
-#bigdipper:hover {
-    opacity: 1.0;
-    transition: opacity .55s ease-in-out;
-    -moz-transition: opacity .55s ease-in-out;
-    -webkit-transition: opacity .55s ease-in-out;
+.constellationinfo:hover {
+    opacity: 1;
+}
+
+.constellationdescription {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    text-align: left;
+    color: white;
+    width: 250px;
+}
+
+#const-big-dipper {
+    opacity: 0;
+}
+
+#const-big-dipper:hover {
+    opacity: 1;
+}
+
+#bigdippername {
+    top: 25%;
+}
+
+#const-pegasus {
+    opacity: 0;
+}
+
+#const-pegasus:hover {
+    opacity: 1;
+}
+
+#pegasusname {
+    top: 25%;
+}
+
+#const-delphinus {
+    opacity: 0;
+}
+
+#const-delphinus:hover {
+    opacity: 1;
+}
+
+#delphinusname {
+    top: 25%;
+}
+
+#const-cassiopeia {
+    opacity: 0;
+}
+
+#const-cassiopeia:hover {
+    opacity: 1;
+}
+
+#cassiopeianame {
+    top: 25%;    
+}
+
+#const-orion {
+    opacity: 0;
+}
+
+#const-orion:hover {
+    opacity: 1;
+}
+
+#orionname {
+    top: 25%;   
+}
+
+#const-littledipper {
+    opacity: 0;
+}
+
+#const-littledipper:hover {
+    opacity: 1;
+}
+
+#littledippername {
+    top: 25%;    
 }
 
 .path {
@@ -224,87 +283,56 @@
 /* Breaks between pages */
 
 #blackbg {
-  position: relative;
-  width: 100%;
-  height: auto;
-  min-height: 15rem;
-  background: #161616;
-  border: none;
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 15rem;
+    background: #161616;
+    border: none;
 }
 
 /* Post Processing section */
 
 #postprocessing {
-  width: 100%;
-  height: auto;
-  min-height: 50rem;
-  padding: 15rem 0;
-  padding-top: 100px;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("postprocessing.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("postprocessing.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-  margin-left: 0px;
+    width: 100%;
+    height: auto;
+    min-height: 50rem;
+    padding: 15rem 0;
+    padding-top: 100px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/postprocessing.jpg");
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/postprocessing.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    margin-left: 0px;
 }
 
-/* image slider to show before/after in post processing section */
-
-.image-slider {
-	position: relative;
-    padding-left: 200px;
-    padding-top: 50px;
-	display: inline-block;
-	line-height: 0;
-    align-content: left;
+#icons {
+    justify-content: center;
 }
 
-.image-slider > div {
-	position: absolute;
-    padding-left: 200px;
-    padding-top: 50px;
-	top: 0; bottom: 0; left: 0;
-	width: 70px;
-	max-width: 100%;
-	overflow: hidden;
-	resize: horizontal;
-}
-
-/* making image slider responsive  */
-
-.image-slider > div:before {
-	content: '';
-	position: absolute;
-	right: 0; bottom: 0; left: -10px;
-	width: 13px; height: 13px;
-	padding: 10px;
-	-webkit-filter: drop-shadow(0 0 2px black);
-	filter: drop-shadow(0 0 2px black);
-}
-
-.image-slider img {
-	user-select: none;
-	max-width: 800px;
+.adobe {
+    margin: 15px;
 }
 
 /* Shooting stars - commented out for now to focus on other animations 
 
 #layout { 
-  color:#FFF; height:600px; width:100%; height:100%; 
+color:#FFF; height:600px; width:100%; height:100%; 
 }
 
 .stars {
-  z-index: 0; position: absolute;
-  background-image: url(stars.jpg);
-  background-repeat: repeat-x,repeat-x repeat-y;
-  transform:translate3D(0em, 0em, 0);
-  animation: stars 1s ease; 
-  transform-style: preserve-3d;
+z-index: 0; position: absolute;
+background-image: url(stars.jpg);
+background-repeat: repeat-x,repeat-x repeat-y;
+transform:translate3D(0em, 0em, 0);
+animation: stars 1s ease; 
+transform-style: preserve-3d;
 }
 
 html {
-  height: 100%;
-  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-  overflow: hidden;
+height: 100%;
+background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+overflow: hidden;
 }
