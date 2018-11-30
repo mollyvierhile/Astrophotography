@@ -1,5 +1,6 @@
 window.onload = function() {
     
+    
 /* Shooting Star animation */
 
   ShootingStar = function(id) {
