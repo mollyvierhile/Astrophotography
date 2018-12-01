@@ -7,6 +7,20 @@ p {
     color: darkgray;
 }
 
+.whiteparagraphtext {
+    color: white;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
 h3 {
     font-size: 20px;
 }
@@ -18,13 +32,20 @@ h3 {
     background-color: black;
 }
 
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    text-align: center;
+}
+    
 /* Understanding your Camera section */
 
 #understandingcamera {
     width: 100%;
     height: auto;
     min-height: 10rem;
-    background: #161616;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url('../img/spotlight.jpg');
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url('../img/spotlight.jpg');
+    background-size: cover;
     border: none; 
 }
 
@@ -58,7 +79,7 @@ h3 {
 
 #lenshotspot {
     top: 25%;
-    left: 39%;
+    left: 41%;
     width: 25%;
 }
 
@@ -81,7 +102,7 @@ h3 {
 
 #modehotspot {
     top: 9%;
-    left: 30%;
+    left: 33%;
     width: 15%;
 }
 
@@ -91,14 +112,14 @@ h3 {
 }
 
 #shutterhotspot {
-    top: 24%;
-    left: 26%;
+    top: 21%;
+    left: 31%;
     width: 8%;
 }
 
 #shutterhotspotdescription {
-    top: -100px;
-    left: -370px;   
+    top: -97px;
+    left: -360px;   
 }
 
 /* Setting up your Camera section */
@@ -180,6 +201,10 @@ h3 {
 
 
 /* Constellations within a Flexbox - connect on hover */
+
+#constellationanimations {
+    top: 0px;
+} 
 
 .constellationinfo {
     flex-basis: 250px;
@@ -282,7 +307,7 @@ h3 {
 
 /* Breaks between pages */
 
-#blackbg {
+.blackbg {
     position: relative;
     width: 100%;
     height: auto;
@@ -308,31 +333,16 @@ h3 {
     margin-left: 0px;
 }
 
+#postprocesstext {
+    width: 600px;
+    align-content: left;
+    margin: 0;
+}
+
 #icons {
     justify-content: center;
 }
 
 .adobe {
     margin: 15px;
-}
-
-/* Shooting stars - commented out for now to focus on other animations 
-
-#layout { 
-color:#FFF; height:600px; width:100%; height:100%; 
-}
-
-.stars {
-z-index: 0; position: absolute;
-background-image: url(stars.jpg);
-background-repeat: repeat-x,repeat-x repeat-y;
-transform:translate3D(0em, 0em, 0);
-animation: stars 1s ease; 
-transform-style: preserve-3d;
-}
-
-html {
-height: 100%;
-background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-overflow: hidden;
 }
