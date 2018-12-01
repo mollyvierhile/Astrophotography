@@ -32,6 +32,10 @@ h3 {
     background-color: black;
 }
 
+.navitem {
+    color: gray;
+}
+
 .navbar-light .navbar-nav .nav-link {
     color: white;
     text-align: center;
